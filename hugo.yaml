@@ -1,4 +1,52 @@
-baseURL: https://example.org/
+baseURL: https://naowalrahman.rocks/blog
 languageCode: en-us
 title: Naowal's Blog
-theme: "PaperMod"
+theme: PaperMod
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          block:
+            - - \[
+              - \]
+            - - $$
+              - $$
+          inline:
+            - - $
+              - $
+            - - \(
+              - \)
+params:
+  math: true
+
+  label:
+    text: "Naowal's Blog"
+    icon: /favicon.ico
+    iconHeight: 35
+
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  comments: false
+  showtoc: true
+
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: "Welcome to my blog! This is where I share cool stuff I've been working on or have learned. If you'd like to learn more about me, see my [website](https://naowalrahman.rocks)."
+
+  # fuseOpts:
+  #   isCaseSensitive: false
+  #   shouldSort: true
+  #   location: 0
+  #   distance: 1000
+  #   threshold: 0.4
+  #   minMatchCharLength: 0
+  #   limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+  #   keys: ["title", "permalink", "summary", "content"]
