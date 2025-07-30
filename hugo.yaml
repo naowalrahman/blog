@@ -2,6 +2,11 @@ baseURL: https://naowalrahman.rocks/blog
 languageCode: en-us
 title: Naowal's Blog
 theme: PaperMod
+
+caches:
+  images:
+    dir: :cacheDir/images
+
 markup:
   goldmark:
     extensions:
