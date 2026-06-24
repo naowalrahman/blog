@@ -1,4 +1,4 @@
-baseURL: https://naowalrahman.rocks/blog
+baseURL: https://naowalrahman.com/blog
 languageCode: en-us
 title: Naowal's Blog
 theme: PaperMod
@@ -44,7 +44,7 @@ params:
 
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: "Welcome to my blog! This is where I share cool stuff I've been working on or have learned. If you'd like to learn more about me, see my [website](https://naowalrahman.rocks)."
+    Content: "Welcome to my blog! This is where I share cool stuff I've been working on or have learned. If you'd like to learn more about me, see my [website](https://naowalrahman.com)."
 
   # fuseOpts:
   #   isCaseSensitive: false
